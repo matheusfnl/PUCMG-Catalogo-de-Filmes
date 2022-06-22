@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Seapig Filmes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar começa aqui -->
+
+    <header class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <a href="./index.html" class="navbar-brand mx-auto">
+          <img src="./imagens/logo-site.png" alt="logo_portal_de_filmes" class="logo_site">
+        </a>
+        <button class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a id="lancamentos" class="header_items nav-link active text-light font-weight-bold" href="#">Lançamentos</a>
+            </li>
+            <li class="nav-item">
+              <a id="em-destaque" class="header_items nav-link active text-light font-weight-bold" href="#">Em destaque</a>
+            </li>
+            <li class="nav-item">
+              <a id="avaliacoes" class="header_items nav-link active text-light font-weight-bold" href="#">Avaliações</a>
+            </li>
+            <li class="nav-item">
+              <a id="entrevistas" class="header_items nav-link active text-light font-weight-bold" href="#">Entrevistas & Makingof</a>
+            </li>
+            <li class="nav-item">
+              <a id="novidades" class="header_items nav-link active text-light font-weight-bold" href="#">Novidades</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <input id="search_bar" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
+            <a id="search_button" class="btn btn-outline-light">Search</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- navbar acaba aqui -->
+
+    <!-- lançamentos começa aqui -->
+
+    <div class="lancamentos">
+      <div class="mx-auto mt-4 mb-4" style="width:200px;">
+        <h2>Lançamentos</h2>
+      </div>
+      <!-- COMEÇA TESTE AQUI -->
+    
+      <div id="carouselExampleIndicators" class="carousel carousel-dark slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- PRIMEIRO FILME -->
+            <div class="row gx-5">
+              <div class="col d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
+                <iframe width="99%" height="348" src="https://www.youtube.com/embed/soQXM3XVvIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+        
+              <div class="col">
+                <h4 class="mb-2">Your Name</h4>
+        
+                <p>
+                  <b>Sinopse</b>: Mitsuha é a filha do prefeito de uma pequena cidade, mas sonha em tentar a sorte em Tóquio. Taki trabalha em um restaurante em Tóquio e deseja largar o seu emprego. Os dois não se conhecem, mas estão conectados pelas imagens de seus sonhos.
+                </p>
+        
+                <div class="row">
+                  <div class="col-md-4">
+                    <b>Diretor:</b> Makoto Shinkai
+                  </div>
+        
+                  <div class="col-md-4">
+                    <b>Roteiro:</b> Makoto Shinkai
+                  </div>
+        
+                  <div class="col-md-4">
+                    <b>Estreia:</b> 2022
+                  </div>
+                </div>
+        
+                <div class="mt-3">
+                  <b>Elenco:</b>
+        
+                  <div class="row mt-3">
+                    <div class="col-md-3">
+                      Ryûnosuke Kamiki
+                    </div>
+                    <div class="col-md-3">
+                      Mone Kamishiraishi
+                    </div>
+                    <div class="col-md-3">
+                      Ryô Narita
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="mt-3">
+                  <b>Avaliação:</b>
+
+                  <div class="col-md-2">
+                    <img src="./imagens/your-name-rating.png" alt="avaliação" class="rating"> 
+                  </div>
+
+                  <div class="col-md-2 ver-trailer mt-2">
+                    <a class="btn btn-outline-danger" target="_blank" href="https://www.youtube.com/watch?v=soQXM3XVvIU&ab_channel=CinemarkBrasil" role="button">Ver Trailer</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- SEGUNDO FILME -->
+            <div class="row gx-5">
+              <div class="col d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"> 
+                <iframe width="99%" height="348" src="https://www.youtube.com/embed/AfHiUtxrmiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+        
+              <div class="col">
+                <h4 class="mb-2">Shang-Chi e a Lenda dos Dez Anéis</h4>
+        
+                <p>
+                  <b>Sinopse</b>: Shang-Chi é o filho do líder de uma organização criminosa poderosa. O rapaz foi criado desde criança para ser um guerreiro, mas decidiu abandonar esse caminho e fugiu para viver uma vida pacífica. Porém, tudo isso muda quando ele é atacado por um grupo de assassinos e se vê forçado a enfrentar seu passado.
+                </p>
+        
+                <div class="row">
+                  <div class="col-md-4">
+                    <b>Diretor:</b> Destin Cretton
+                  </div>
+        
+                  <div class="col-md-4">
+                    <b>Roteiro:</b> Destin Cretton
+                  </div>
+        
+                  <div class="col-md-4">
+                    <b>Estreia:</b> 2021
+                  </div>
+                </div>
+        
+                <div class="mt-3">
+                  <b>Elenco:</b>
+        
+                  <div class="row mt-3">
+                    <div class="col-md-3">
+                      Meng'er Zhang
+                    </div>
+                    <div class="col-md-3">
+                      Awkwafina
+                    </div>
+                    <div class="col-md-3">
+                      Simu Liu
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="mt-3">
+                  <b>Avaliação:</b>
+        
+                  <div class="mt-2">
+                    <img src="./imagens/shang-chi-rating.png" alt="avaliação" class="rating">
+                  </div>
+
+                  <div class="col-md-2 ver-trailer mt-2">
+                    <a class="btn btn-outline-danger" target="_blank" href="https://www.youtube.com/watch?v=AfHiUtxrmiY&ab_channel=MarvelBrasil" role="button">Ver Trailer</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- TERCEIRO FILME -->
+            <div class="row gx-5">
+              <div class="col d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
+                <iframe width="99%" height="348" src="https://www.youtube.com/embed/zRMicKd9IH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+        
+              <div class="col">
+                <h4 class="mb-2">Encanto</h4>
+        
+                <p>
+                  <b>Sinopse</b>: Nas montanhas da Colômbia vive a família Madrigal, onde cada membro é dotado de um superpoder, que vai da força extraordinária à capacidade de cura. A única exceção é Mirabel, garota nascida sem poder nenhum. No entanto, quando a magia do vilarejo é ameaçada, a filha "normal" será a única capaz de salvá-los.
+                </p>
+        
+                <div class="row">
+                  <div class="col-md-4">
+                    <b>Diretor:</b> Byron Howard
+                  </div>
+        
+                  <div class="col-md-4">
+                    <b>Roteiro:</b> Jared Bush
+                  </div>
+        
+                  <div class="col-md-4">
+                    <b>Estreia:</b> 2021
+                  </div>
+                </div>
+        
+                <div class="mt-3">
+                  <b>Elenco:</b>
+        
+                  <div class="row mt-3">
+                    <div class="col-md-3">
+                      Ryûnosuke Kamiki
+                    </div>
+                    <div class="col-md-3">
+                      Mone Kamishiraishi
+                    </div>
+                    <div class="col-md-3">
+                      Ryô Narita
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="mt-3">
+                  <b>Avaliação:</b>
+        
+                  <div class="mt-2">
+                    <img src="./imagens/your-name-rating.png" alt="avaliação" class="rating">
+                  </div>
+
+                  <div class="col-md-2 ver-trailer mt-2">
+                    <a class="btn btn-outline-danger" target="_blank" href="https://www.youtube.com/watch?v=zRMicKd9IH8&ab_channel=WaltDisneyStudiosBR" role="button">Ver Trailer</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev seta-carousel d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block" style="width: 20px; margin-left: 20px;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next seta-carousel d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block" style="width: 20px; margin-right: 40px;"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>  
+      </div>
+      <div id="scroll_search"></div>
+    </div>
+    <!-- lançamentos acaba aqui -->
+    
+    <!-- em destaque começa aqui -->
+
+    <div class="em-destaque mt-4 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 id="titulo_categoria">Em destaque</h2>
+          </div>
+          <div class="dropdown dropdown-categoria col-md-4 offset-md-4">
+            <button id="dropdown-selected" class="btn btn-outline-light dropdown-toggle" style="float: right;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Categoria
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li id="dropdown-1" class="dropdown-item" href="#">Em destaque</li>
+              <li id="dropdown-2" class="dropdown-item" href="#">No cinema</li>
+              <li id="dropdown-3" class="dropdown-item" href="#">Em breve</li>
+              <li id="dropdown-4" class="dropdown-item" href="#">Bem avaliados</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="row" id="rowFilmesLista">
+          <!-- filmes aparecerão aqui -->
+        </div>
+
+        <div class="d-flex flex-row-reverse ">
+          <button id="showMoreFilmsButton" class="btn btn-dark p-2 ">+ Carregar mais filmes</button>
+        </div>
+      </div>
+      <div id="scroll_avaliacoes"></div>
+    </div>
+    <!-- em destaque acaba aqui -->
+
+    <!-- ultimas avaliações começa aqui -->
+
+    <div class="em-destaque mt-5 mb-5">
+      <div class="container">
+        <div id="ultimas_avaliações" class="row">
+          <h2>Ultimas avaliações</h2>
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-3">
+                  <div class="profile-header-container">
+                    <img class="rounded-circle" src="./imagens/logo.jpg" height="100%" width="100%" />
+                  </div>
+                </div>
+                <div class="col-9">
+                  <h4>Silvio Santos</h4>
+                  <p><b>Avaliação:</b>
+                    Marca com certeza um grande início de uma série bem consagrada. É bom ver o começo,até mesmo do elenco,assim podemos acompanhar seus progressos. Ótimo começo,pra uma verdadeira saga.
+
+                  </p>
+                  <p>★★★★★ - <b>29/03/2022</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-3">
+                  <div class="profile-header-container">
+                      <img class="rounded-circle" src="./imagens/logo.jpg" height="100%" width="100%" />
+                  </div>
+                </div>
+                <div class="col-9">
+                  <h4>Cleber João</h4>
+                  <p><b>Avaliação:</b>
+                    A ideia do filme é boa, devo admitir que tudo é muito bonito, e que Manuel Lin Miranda merece todos elogios pelo que tem feito no cinema ultimamente. Mas apenas mais perto do final me senti realmente atraído pela história. Faltou alguma coisa para deixar em um patamar um pouco mais alto.
+                  </p>
+                  <p>★★☆☆☆ - <b>25/03/2022</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-3">
+                  <div class="profile-header-container">
+                    <img class="rounded-circle" src="./imagens/logo.jpg" height="100%" width="100%" />
+                  </div>
+                </div>
+                <div class="col-9">
+                  <h4>Jorge</h4>
+                  <p><b>Avaliação:</b>
+                    Tudo ótimo nesse terceiro filme da franquia efeitos especiais, roteiro, história segue com uma boa qualidade assim com seus anteriores e é envolvente. Gostei muito, tomara que tenhamos um quarto filme e que ele siga a mesma excelente qualidade desse.
+                  </p>
+                  <p>★★★☆☆ - <b>10/04/2022</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="d-flex flex-row-reverse mt-3">
+          <button class="btn btn-dark p-2 ">+ Carregar mais avaliações</button>
+        </div> -->
+      </div>
+      <div id="scroll_entrevistas"></div>
+    </div>
+
+    <!-- ultimas avaliações acaba aqui -->
+
+    <div class="em-destaque mt-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <h2>Entrevistas & Making of</h2>
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-4">
+             <iframe width="100%" height="200" src="https://www.youtube.com/embed/b6jVqyKFa-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h5 class="mt-2"><b>Filme:</b> Your Name</h5>
+            <p class="makingof-p"><b>Diretor:</b> Makoto Shinkai</p>
+            <div class="row">
+              <div class="col-7">
+                <p class="makingof-pa"><b>Roteiro:</b> Makoto Shinkai</p>
+              </div>
+              <div class="col-5">
+                <p class="makingof-pa"><b>Estreia:</b> 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+             <iframe width="100%" height="200" src="https://www.youtube.com/embed/-4zVqbFoJoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h5 class="mt-2"><b>Filme:</b> IT: Capítulo Dois</h5>
+            <p class="makingof-p"><b>Diretor:</b> Andy Muschietti</p>
+            <div class="row">
+              <div class="col-7">
+                <p class="makingof-pa"><b>Roteiro:</b> Gary Dauberman</p>
+              </div>
+              <div class="col-5">
+                <p class="makingof-pa"><b>Estreia:</b> 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+             <iframe width="100%" height="200" src="https://www.youtube.com/embed/oJToVWNhnw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h5 class="mt-2"><b>Filme:</b> Sonic 2</h5>
+            <p class="makingof-p"><b>Diretor:</b> Jeff Fowler</p>
+            <div class="row">
+              <div class="col-7">
+                <p class="makingof-pa"><b>Roteiro:</b> Josh Miller</p>
+              </div>
+              <div class="col-5">
+                <p class="makingof-pa"><b>Estreia:</b> 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="d-flex flex-row-reverse mt-3">
+          <button class="btn btn-dark p-2 ">+ Carregar mais filmes</button>
+        </div> -->
+      </div>
+      <div id="scroll_novidades"></div>
+    </div>
+
+    <div class="em-destaque mt-5 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h2>Novidades</h2>
+            <!-- matéria 1 -->
+            <div class="row mt-3 noticia-card">
+              <div class="col-4">
+                <img class="novidade-imagem" src="./imagens/novidades/novidade-1.png" alt="Suzume-no-Tojimari">
+              </div>
+
+              <div class="col-8">
+                <h5>Diretor de Your Name e O Tempo Com Você anuncia novo filme</h5>
+                <p>Makoto Shinkai, conhecido por ser o diretor dos famosíssimos Your Name e O Tempo com Você, anunciou sua mais nova produção. Suzume no Tojimari (A Porta Fechada de Suzume, em tradução livre) tem estreia prevista para o último trimestre de 2022, no Japão.</p>
+                <div class="row">
+                  <div class="col-12">
+                    <span class="badge bg-light text-dark">hollywood</span>
+
+                    <span class="badge bg-light text-dark">oscar</span>
+
+                    <span class="badge bg-light text-dark">melhor filme</span>
+                  </div>
+                </div>   
+              </div>
+            </div>
+
+            <hr>
+            <!-- matéria 2 -->
+
+            <div class="row mt-3 noticia-card">
+              <div class="col-4">
+                <img class="novidade-imagem" src="./imagens/novidades/novidade-2.png" alt="esquadrão-suicida-2">
+              </div>
+
+              <div class="col-8">
+                <h5>O Esquadrão Suicida foi oficialmente apagado do universo da DC</h5>
+                <p>Amanda Waller usou o Esquadrão Suicida para realizar missões que ninguém mais pode, mas agora ela os dissolveu oficialmente da pior maneira possível.</p>
+                <div class="row">
+                  <div class="col-12">
+                    <span class="badge bg-light text-dark">hollywood</span>
+
+                    <span class="badge bg-light text-dark">oscar</span>
+
+                    <span class="badge bg-light text-dark">melhor filme</span>
+                  </div>
+                </div>   
+              </div>
+            </div>
+
+            <hr>
+            <!-- matéria 3 -->
+
+            <div class="row mt-3 noticia-card">
+              <div class="col-4">
+                <img class="novidade-imagem" src="./imagens/novidades/novidade-3.png" alt="one-piece-red">
+              </div>
+
+              <div class="col-8">
+                <h5>One Piece: Red | Teaser trailer ganha data de lançamento</h5>
+                <p>O filme contará uma história inédita sendo escrita pelo mangaká Eiichiro Oda. Até o momento não há muitos detalhes. No entanto, segundo o site oficial da produção, os personagens de um festival de música misterioso em uma ilha. Além disso, uma cantora chamada Red será fundamental na narrativa.</p>
+                <div class="row">
+                  <div class="col-12">
+                    <span class="badge bg-light text-dark">hollywood</span>
+
+                    <span class="badge bg-light text-dark">oscar</span>
+
+                    <span class="badge bg-light text-dark">melhor filme</span>
+                  </div>
+                </div>   
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id pellentesque turpis. Etiam facilisis urna ut tortor dignissim imperdiet. Vivamus eget dui eu velit lobortis rutrum non sed sapien. Sed elementum leo vitae lacinia eleifend. Phasellus facilisis dolor pharetra, commodo diam non, facilisis lacus. Sed nisl neque, rhoncus vel turpis id, condimentum lobortis risus. Nam ultrices ullamcorper elementum. Integer commodo massa et luctus egestas. Pellentesque ante nunc, tempus vel sodales.</p>
+            <h2 class="mt-4">Editorial</h2>
+            <!-- redação -->
+            <div class="row mt-3">
+              <div class="col-1">
+                <img class="person-symbol" src="./imagens/person-icon-1682.png" alt="simbol">
+              </div>
+
+              <div class="col-11">
+                <p><b>Redação:</b> Matheus Gabriel</p>
+              </div>
+
+            </div>
+            <!-- pesquisa -->
+            <div class="row mt-1">
+              <div class="col-1">
+                <img class="person-symbol" src="./imagens/person-icon-1682.png" alt="simbol">
+              </div>
+
+              <div class="col-11">
+                <p><b>Pesquisa:</b> Matheus Gabriel</p>
+              </div>
+
+            </div>
+            <!-- gerente geral -->
+            <div class="row mt-1">
+              <div class="col-1">
+                <img class="person-symbol" src="./imagens/person-icon-1682.png" alt="simbol">
+              </div>
+
+              <div class="col-11">
+                <p><b>Gerente geral:</b> Matheus Gabriel</p>
+              </div>
+
+            </div>
+
+            <h3 class="mt-3">redes sociais</h3>
+
+            <a href="#" class="navbar-brand">
+              <img class="social-media-icon" src="./imagens/social-media/facebook.png" alt="">
+            </a>
+            
+            <a href="#" class="navbar-brand">
+              <img class="social-media-icon" src="./imagens/social-media/instagram.png" alt="">
+            </a>
+
+            <a href="#" class="navbar-brand">
+              <img class="social-media-icon" src="./imagens/social-media/twitter.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- footer começa aqui -->
+
+    <footer class="text-lg-start mt-5">
+      <div class="p-3 text-center">
+        <p class="d-inline">© Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - </p>
+        <p class="ml-3 d-inline">ICEI Puc Minas</p>
+
+        <a href="./index.html" class="d-inline-block justify-content-end">
+          <img src="./imagens/logo-site-dark.png" alt="logo_portal_de_filmes" class="logo_site">
+        </a>
+      </div>
+    </footer>
+
+    <script type="module" src="./script/index.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+header {
+  background-color: rgb(75, 73, 92);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0,0.35);
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+body {
+  background-color: rgb(46, 45, 58);
+  color: rgb(170, 168, 196);
+}
+
+h1, h2, h2, h3, h4, h5 {
+  color:rgb(221, 219, 255);
+}
+
+footer, footer a {
+  background-color: rgb(35, 34, 44);
+}
+
+hr {
+  background-color:rgb(221, 219, 255);
+}
+
+.logo_site {
+  width: 50px;
+}
+
+.body {
+  padding: 40px 50px;
+  background-color: rgb(46, 45, 58);
+  backdrop-filter: blur(10px);
+  margin-bottom: 100px;
+}
+
+.body_secondary {
+  padding: 40px;
+  background-color: rgb(75, 73, 92);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0,0.35);
+  border-radius: 10px;
+}
+
+.badge {
+  font-size: 15px;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.card_game {
+  background-position-y: 30%;
+  background-size: cover;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  width: 100%;
+  height: 280px;
+}
+
+.card_info {
+  top: 0;
+  left: 0;
+  margin: 130px 50px 50px 100px;
+}
+
+#filme_nota {
+  border-color: rgba(0, 0, 0, 0);
+  font-size: 30px;
+}
+
+.nota {
+  top: 0;
+  left: 90%;
+  margin-top: 270px;
+}
+
+.card_title {
+  font-weight: bold;
+  font-size: 56px;
+  color: white;
+}
+
+.card_date {
+  color: white;
+  margin-top: -10px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.card_desc {
+  max-width: 200px;
+}
+
+.desc {
+  margin-left: 30px;
+}
+
+.card_desc_image {
+  width: 200px;
+  border-radius: 5px 0 0 10px;
+}
+
+.card_desc_text {
+  font-size: 17px;
+}
+
+.card_desc_infos {
+  margin: 10px 0px 0;
+}
+
+.card_desc_infos_title {
+  color: rgb(22, 22, 44);
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.infos {
+  margin-right: 40px;
+}
+
+.button_go_to_page {
+  font-weight: bold;
+}
+
+.button_go_to_page:hover {
+  background-color: rgb(210, 210, 210);
+  border-color:rgb(210, 210, 210);
+}

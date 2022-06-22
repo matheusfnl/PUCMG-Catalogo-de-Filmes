@@ -1,0 +1,185 @@
+header {
+  background-color: rgb(75, 73, 92);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0,0.35);
+}
+
+body {
+  background-color: rgb(46, 45, 58);
+  color: rgb(170, 168, 196);
+}
+
+h1, h2, h2, h3, h4, h5 {
+  color:rgb(221, 219, 255);
+}
+
+footer, footer a {
+  background-color: rgb(35, 34, 44);
+}
+
+.noticia-card {
+  background-color: rgb(46, 45, 58);
+  border-radius: 10px;
+  padding: 20px 0px 20px 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0,0.35);
+}
+
+hr {
+  background-color:rgb(221, 219, 255);
+}
+
+.logo_site {
+  width: 50px;
+}
+
+.header_items:hover {
+  color:rgb(140, 138, 159);
+}
+
+.collapse.navbar-collapse {
+  justify-content: center;
+}
+
+.collapse.navbar-collapse .nav-item {
+  margin-left: 20px;
+}
+
+.row.gx-5 .col:first-child {
+  padding: 0 20px 0 100px;
+}
+
+.row.gx-5 .col:last-child {
+  padding: 0 100px 0 20px;
+}
+
+.rating {
+  width: 100px;
+}
+
+.ver-trailer{
+  visibility: hidden;
+}
+
+.lancamentos {
+  min-height: 480px;
+}
+
+.dropdown-item:active {
+  color: black;
+  background-color: rgb(195, 205, 212);
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.em-destaque {
+  margin: 0 50px;
+  padding: 40px 100px;
+  background-color: rgb(75, 73, 92);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0,0.35);
+  border-radius: 10px;
+}
+
+.poster-destaque {
+  background-color: rgb(46, 45, 58);
+  padding: 20px;
+  margin: 0 5px;
+  max-width: 230px;
+  min-width: 230px;
+  min-height: 395px;
+  max-height: 395px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0,0.35);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.go-to-page {
+  text-decoration: none;
+}
+
+.poster-destaque:hover {
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transform: scale(1.03);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+.badge-destaque {
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.hyperlink_destaque {
+  text-decoration: none;
+}
+
+.text-destaque {
+  max-width: 180px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 180px;
+  border-radius: 10px;
+}
+
+.makingof-pa {
+  margin-top: -15px;
+}
+
+.novidade-imagem {
+  width: 225px;
+}
+
+.person-symbol {
+  width: 20px;
+}
+
+.social-media-icon {
+  width: 30px;
+}
+
+@media screen and (max-width:992px){  
+  .row.gx-5 .col:last-child {
+    padding: 0;
+    margin: 0 40px 0 40px;
+  }
+
+  .ver-trailer{
+    visibility: visible;
+  }
+
+  .em-destaque {
+    margin: 50px 100px 0;
+  }
+
+  .poster-destaque {
+    align-items: center;
+  }
+  
+}
+
+@media screen and (max-width:710px){  
+  .poster-destaque img{
+    width: 150px;
+  }
+  .em-destaque {
+    margin: 0 0;
+  }
+}
+
+
+@media screen and (max-width:612px){  
+  .poster-destaque img{
+    width: 110px;
+  }
+  .em-destaque {
+    margin: 0 0;
+  }
+}
