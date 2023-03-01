@@ -1,6 +1,9 @@
 header {
   background-color: rgb(75, 73, 92);
   box-shadow: 0px 5px 10px rgba(0, 0, 0,0.35);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 body {
